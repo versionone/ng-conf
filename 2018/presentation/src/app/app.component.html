@@ -1,27 +1,23 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div id="main">
-  <h1>
-    {{ title }}
-  </h1>
-  <img width="300" alt="ng-conf Logo" src="https://www.ng-conf.org/wp-content/uploads/2016/09/logo.png">
-  <ul id="table-of-contents">
-    <li>RP1/80's Theme</li>
-    <li>Excellent Talks</li>
-    <li>Networking</li>
-    <li>Fun Activities</li>
-    <li>Swag & Prizes</li>
-    <li>Delicious Food</li>
-    <li>Transportation</li>
-    <li>Accommodations</li>
-    <li>Safe/Inclusive</li>
-    <li>Healthy Options</li>
-    <li>Family Friendly</li>
-    <li>Lessons Learned</li>
-    <li>Should You Go?</li>
-    <li>Wrapping It Up</li>
-    <li>ng-conf 2019</li>
-  </ul>
-  <div id="content">
-    Inject content here based on li selected
-  </div>
+  <h1>{{ title }}</h1>
+  <nav>
+    <a routerLink="/home">Home</a>
+    <a routerLink="/theme">Theme</a>
+    <a routerLink="/talks">Talks</a>
+    <a routerLink="/social">Social</a>
+    <a routerLink="/fun">Fun</a>
+    <a routerLink="/swag">Swag</a>
+    <a routerLink="/food">Food</a>
+    <a routerLink="/transit">Transit</a>
+    <a routerLink="/hotels">Hotels</a>
+    <a routerLink="/safe">Safe</a>
+    <a routerLink="/healthy">Healthy</a>
+    <a routerLink="/family">Family</a>
+    <a routerLink="/lessons">Lessons</a>
+    <a routerLink="/again">Again?</a>
+    <a routerLink="/summary">Summary</a>
+    <a routerLink="/2019">2019</a>
+  </nav>
+  <router-outlet class="content"></router-outlet>
 </div>
