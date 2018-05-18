@@ -1,1 +1,69 @@
-/* You can add global styles to this file, and also import other style files */
+.container {
+  margin-top: 30px;
+}
+
+.container-flex {
+  display: flex;
+}
+
+.p-left {
+  text-align: left;
+}
+
+.p-right {
+  text-align: right;
+}
+
+ul {
+  margin: 0;
+}
+
+.ul-left {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.ul-right {
+  text-align: right;
+}
+
+li {
+  display: inline-flex;
+  list-style: none;
+  padding-top: 15px;
+}
+
+.img-left {
+  margin-right: 10px;
+}
+
+.img-right {
+  margin-left: 10px;
+}
+
+.img-bottom {
+  margin-top: 10px;
+}
+
+.img-small {
+  max-height: 32px;
+  max-width: 32px;
+}
+
+.img-xlarge {
+  max-height: 200px;
+  max-width: 320px;
+}
+
+.video-right {
+  margin-left: 10px;
+}
+
+.video-bottom {
+  margin-top: 10px;
+}
+
+.video-2xlarge {
+  height: 270px;
+  width: 480px;
+}
