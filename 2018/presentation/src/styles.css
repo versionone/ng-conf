@@ -1,5 +1,5 @@
 .container {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .container-flex {
@@ -43,7 +43,6 @@ ul {
 }
 
 .ul-left {
-  padding-left: 10px;
   text-align: left;
 }
 
@@ -55,6 +54,14 @@ li {
   display: inline-flex;
   list-style: none;
   padding-top: 15px;
+}
+
+.li-left {
+  margin-right: 10px;
+}
+
+.li-right {
+  margin-left: 10px;
 }
 
 .img-left {
@@ -100,4 +107,8 @@ li {
 .video-2xlarge {
   height: 270px;
   width: 480px;
+}
+
+.sub-text {
+  font-size: 0.8em;
 }
