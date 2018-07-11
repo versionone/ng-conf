@@ -7,10 +7,6 @@
   align-items: center;
 }
 
-.container-bottom {
-  margin-top: 10px;
-}
-
 .flex-1 {
   flex: 1;
 }
@@ -33,23 +29,15 @@ li {
   padding-top: 15px;
 }
 
-.li-left {
-  margin-right: 10px;
-}
-
-.li-right {
+.margin-left-narrow {
   margin-left: 10px;
 }
 
-.img-left {
+.margin-right-narrow {
   margin-right: 10px;
 }
 
-.img-right {
-  margin-left: 10px;
-}
-
-.img-bottom {
+.margin-top-narrow {
   margin-top: 10px;
 }
 
@@ -71,14 +59,6 @@ li {
 .img-2xlarge {
   max-height: 360px;
   max-width: 480px;
-}
-
-.video-right {
-  margin-left: 10px;
-}
-
-.video-bottom {
-  margin-top: 10px;
 }
 
 .video-2xlarge {
