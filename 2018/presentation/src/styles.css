@@ -24,9 +24,12 @@ ul {
 }
 
 li {
-  display: inline-flex;
   list-style: none;
   padding-top: 15px;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .margin-top-none {
