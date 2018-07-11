@@ -19,32 +19,12 @@
   flex: 2;
 }
 
-.div-left {
+.text-align-left {
   text-align: left;
-}
-
-.p-left {
-  text-align: left;
-}
-
-.p-center {
-  text-align: center;
-}
-
-.p-right {
-  text-align: right;
 }
 
 ul {
   margin: 0;
-}
-
-.ul-left {
-  text-align: left;
-}
-
-.ul-right {
-  text-align: right;
 }
 
 li {
