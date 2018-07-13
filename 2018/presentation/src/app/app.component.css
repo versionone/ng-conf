@@ -2,19 +2,20 @@
   text-align:center;
   background-color: #4f2940;
   color: #fae04b;
-  font-size: 1.7em;
+  font-size: 2em;
+  line-height: 1em;
   min-height: 900px;
   padding: 20px;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 nav a {
   color: #fae04b;
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding: 10px;
   text-decoration: none;
 }

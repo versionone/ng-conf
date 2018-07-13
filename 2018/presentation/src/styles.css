@@ -37,6 +37,10 @@ li {
   padding-top: 15px;
 }
 
+a {
+  color: inherit;
+}
+
 .inline-flex {
   display: inline-flex;
 }
@@ -50,7 +54,7 @@ li {
 }
 
 .margin-top-huge {
-  margin-top: 120px;
+  margin-top: 280px;
 }
 
 .margin-left-narrow {
