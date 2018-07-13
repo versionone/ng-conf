@@ -14,8 +14,6 @@ import { FoodComponent } from './food/food.component';
 import { TransitComponent } from './transit/transit.component';
 import { HotelsComponent } from './hotels/hotels.component';
 import { SafeComponent } from './safe/safe.component';
-import { HealthyComponent } from './healthy/healthy.component';
-import { FamilyComponent } from './family/family.component';
 import { LessonsComponent } from './lessons/lessons.component';
 import { AgainComponent } from './again/again.component';
 import { SummaryComponent } from './summary/summary.component';
@@ -35,8 +33,6 @@ import { NgConf2019Component } from './ng-conf-2019/ng-conf-2019.component';
     TransitComponent,
     HotelsComponent,
     SafeComponent,
-    HealthyComponent,
-    FamilyComponent,
     LessonsComponent,
     AgainComponent,
     SummaryComponent,

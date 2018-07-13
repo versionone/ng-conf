@@ -10,8 +10,6 @@ import { FoodComponent } from './food/food.component';
 import { TransitComponent } from "./transit/transit.component";
 import { HotelsComponent } from "./hotels/hotels.component";
 import { SafeComponent } from "./safe/safe.component";
-import { HealthyComponent } from "./healthy/healthy.component";
-import { FamilyComponent } from "./family/family.component";
 import { LessonsComponent } from "./lessons/lessons.component";
 import { AgainComponent } from "./again/again.component";
 import { SummaryComponent } from "./summary/summary.component";
@@ -29,8 +27,6 @@ const routes: Routes = [
   { path: 'transit', component: TransitComponent },
   { path: 'hotels', component: HotelsComponent },
   { path: 'safe', component: SafeComponent },
-  { path: 'healthy', component: HealthyComponent },
-  { path: 'family', component: FamilyComponent },
   { path: 'lessons', component: LessonsComponent },
   { path: 'again', component: AgainComponent },
   { path: 'summary', component: SummaryComponent },
