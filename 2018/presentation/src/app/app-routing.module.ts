@@ -9,7 +9,6 @@ import { SwagComponent } from "./swag/swag.component";
 import { FoodComponent } from './food/food.component';
 import { TransitComponent } from "./transit/transit.component";
 import { HotelsComponent } from "./hotels/hotels.component";
-import { SafeComponent } from "./safe/safe.component";
 import { AgainComponent } from "./again/again.component";
 import { SummaryComponent } from "./summary/summary.component";
 import { NgConf2019Component } from "./ng-conf-2019/ng-conf-2019.component";
@@ -25,7 +24,6 @@ const routes: Routes = [
   { path: 'food', component: FoodComponent },
   { path: 'transit', component: TransitComponent },
   { path: 'hotels', component: HotelsComponent },
-  { path: 'safe', component: SafeComponent },
   { path: 'again', component: AgainComponent },
   { path: 'summary', component: SummaryComponent },
   { path: '2019', component: NgConf2019Component },
